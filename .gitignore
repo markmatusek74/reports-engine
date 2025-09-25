@@ -1,0 +1,49 @@
+# Dependencies
+/vendor/
+node_modules/
+
+# Laravel specific
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+storage/logs/*.log
+
+# Testing
+coverage/
+.phpunit.cache
+
+# Temporary files
+/tmp/
+/temp/
+
+# Build artifacts
+/dist/
+/build/
+public/hot
+public/storage
+storage/app/public
+storage/framework/cache/data/*
+storage/framework/sessions/*
+storage/framework/testing/*
+storage/framework/views/*
+
+# Composer
+composer.lock
+composer.phar
+
+# Package development
+!composer.lock
